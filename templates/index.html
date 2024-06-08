@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Roller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>גלגל המזל</h1>
+        <h1 id="name"></h1>
+        <button id="rollButton">הגרל שם</button>
+    </div>
+    <div id="loader" class="hidden"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <div class="footer">
+        <p>פותח על ידי: פולסטאק לפנתאון של איש דאטא ואשת סייבר</a></p>
+    </div>
+</body>
+</html>
